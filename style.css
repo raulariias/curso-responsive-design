@@ -245,7 +245,7 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    top: calc(0px - 1.4rem);
+    top: calc(0px - 1.1rem);
     left: calc(50% - 2rem);
 }
 .main-product-details .main-product-details--title{
@@ -311,6 +311,127 @@ main {
 }
 
 /* Section 3 */
+.bitcoin-img{
+    width: 100%;
+    min-width: 30rem;
+    height: 50vh;
+    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bitcoin-img h2{
+    padding-top: 5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--just-white);
+}
+
+/* Section 4 planes */
+.main-planes {
+    height: auto;
+    padding: 5rem 0;
+    background-color: var(--off-white);
+}
+.main-planes .main-planes-title{
+    margin: 0 auto;
+    width: 90%;
+}
+.main-planes-title h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.main-planes-title > p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    font-weight: 500;
+    color: #757575;
+}
+.main-planes .planes-cards-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 20rem));
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+.planes-cards-container .planes-card{
+    height: 25rem;
+    padding: 3.5rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--just-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 1rem;
+}
+.planes-card h3{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.planes-card .price-container {
+    width: auto;
+    height: 6rem;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.price-container .price-dolarSign {
+    position: absolute;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #363636;
+    top: -2rem;
+    left: -1rem;
+}
+.price-container > p {
+    position: relative;
+    margin-top: 1rem;
+    text-align: end;
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 6.2rem;
+}
+.planes-card .planes-card--description {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    color: #757575;
+}
+.planes-card .planes-card--button{
+    position: relative;
+    width: 80%;
+    padding: 1rem 0 1rem 1rem;
+    background-color: var(--off-white);
+    text-decoration: none;
+    color: var(--warm-black);
+    border-radius: 5px;
+    border: 2px solid var(--bitcoin-orange);
+    font-synthesis: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+.planes-card .planes-card--button span{
+    position: absolute;
+    right: 8px;
+    width: 2rem;
+    height: 1.7rem;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
 
 @media (min-width: 769px) {
