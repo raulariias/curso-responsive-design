@@ -1,4 +1,4 @@
-# Curso practico de JS
+# Curso Maquetación Mobile First
 👋 Hola, este repositorio es de un curso practico de la plataforma Platzi. Estuve practicando la maquetación mobile first, maquetamos el 100% del curso y luego vimos las clases y este fue el resultado.
 
 Puedes ver la Demo [Aqui](https://raulariias.github.io/curso-javascript-practico/ "Aqui") 👀
