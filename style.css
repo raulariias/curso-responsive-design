@@ -6,6 +6,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;;
+    scroll-behavior: smooth;
 }
 body {
     font-size: 1.6rem;
@@ -362,6 +363,7 @@ main {
     gap: 1.5rem;
 }
 .planes-cards-container .planes-card{
+    position: relative;
     height: 25rem;
     padding: 3.5rem 1rem 1rem 1rem;
     display: flex;
@@ -371,6 +373,26 @@ main {
     background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.planes-card .encabezado {
+    padding: 8px 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+    position: absolute;
+    top: calc(0px - 15px);
+}
+.planes-card .optimo {
+    background-color: var(--secondary-blue);
+}
+.planes-card .basic {
+    background-color: var(--grey);
 }
 .planes-card h3{
     font-size: 1.4rem;
@@ -429,6 +451,27 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+footer {
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bitcoin-orange);
+}
+.leftFooter ul{
+    font-size: 1.4rem;
+    list-style: none;
+}
+.leftFooter ul li{
+    margin-bottom: 8px;
+}
+.leftFooter ul a {
+    color: var(--just-white);
+    text-decoration: none;
+}
+.RighFooter img {
+    width: 5em;
 }
 
 
